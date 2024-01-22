@@ -14,5 +14,7 @@ public class MyContainerInitV1 implements ServletContainerInitializer {
         System.out.println("MyContainerInitV1.onStartup");
         System.out.println("set = " + set);
         System.out.println("servletContext = " + servletContext);
+
+        System.out.println("set = " + set + ", servletContext = " + servletContext);
     }
 }
